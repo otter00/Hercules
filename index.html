@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css">
+  <link rel="stylesheet" href="hercules.css">
+  
+  <title>Фитнес-клуб "Геркулес"</title>
+</head>
+
+<body>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700" rel="stylesheet">
+
+    <div class="nav">
+        <div class="nav-panel container">
+    
+        <a href="index.html">
+          <div class="nav-logo">
+              <span>Фитнес-клуб "Геркулес"</span>
+          </div>
+        </a>
+    
+          <div class="nav-cabinet">
+            <input type="button" value="Контакты" class="nav-element button nav-button">
+          </div>         
+        </div>
+      </div>
+
+      <div class="hero">
+        <div class="container">
+            <div class="hero-info">
+                <h1>Спортзал «Геркулес»</h1>
+                <div class="hero-info-footer">
+                    <div class="store-type">Абонементы</div>
+                    <div class="hero-info-footer-time">900 - 1500 ₽ </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tabs">
+
+        <!-- радиобаттон, чтобы зажатая выбранная кнопка сохраняла цвет 
+        радио, а не чекбокс - чтобы нельзя было выбрать сразу несколько (а только одну) -->
+        <input type="radio" name="tab-btn" data-num="0" id="tab-btn-1" value>
+        <input type="radio" name="tab-btn" data-num="1" id="tab-btn-2" value>
+        <input type="radio" name="tab-btn" data-num="2" id="tab-btn-3" value>
+
+      <div class="tabs-labels container">
+        <label id="tab-btn-label-1" data-num="0" for="tab-btn-1"><a href="#Наши_тренера">Наши тренера</a></label>
+        <label id="tab-btn-label-2" data-num="1" for="tab-btn-2"><a href="#Наши_достижения">Наши достижения</a></label>
+        <label id="tab-btn-label-3" data-num="2" for="tab-btn-3"><a href="#Фотогалерея">Фотогалерея</a></label>
+      </div>
+
+      <hr class="hr-horizontal-gradient">
+
+      <div class="tabs-contents container">
+
+        <div id="menu-1" class="tab-content">
+          <h2 class="header" id="Наши_тренера">Наши тренера</h2>
+          <div class="gym-cards">
+
+            <a href="#" class="gym-card">
+              <div class="gym-desc">
+                <div class="gym-title">
+                  <div class="gym-name">Геннадий Фёдорович</div>
+                  <div class="gym-name-sub">55 лет</div>
+                </div>
+                <div class="gym-price">Стаж тренировок: 40 лет</div>
+              </div>
+              <img class="gym-pic" src="images/rH62hsCOrHE.jpg" alt="Геннадий Федорович">
+            </a>
+
+            <a href="#" class="gym-card">
+              <div class="gym-desc">
+                <div class="gym-title">
+                  <div class="gym-name">Анастасия</div>
+                  <div class="gym-name-sub">45 лет</div>
+                </div>
+                <div class="gym-price">Стаж тренировок: 25 лет</div>
+              </div>
+              <img class="gym-pic" src="images/zXNKDL3IJJk.jpg" alt="Анастасия">
+            </a>
+
+            <a href="#" class="gym-card">
+              <div class="gym-desc">
+                <div class="gym-title">
+                  <div class="gym-name">Алексей</div>
+                  <div class="gym-name-sub">49 лет</div>
+                </div>
+                <div class="gym-price">Стаж тренировок: 30 лет</div>
+              </div>
+              <img class="gym-pic" src="images/IMG-20210910-WA0068.jpg" alt="Алексей">
+            </a>
+
+            <a href="#" class="gym-card">
+              <div class="gym-desc">
+                <div class="gym-title">
+                  <div class="gym-name">Анастасия</div>
+                  <div class="gym-name-sub">21 год</div>
+                </div>
+                <div class="gym-price">Стаж тренировок: 9 лет</div>
+              </div>
+              <img class="gym-pic" src="images/OHbgkIUS77E.jpg" alt="Анастасия">
+            </a>
+
+          </div>       
+        
+        </div>
+      
+        <div id="menu-2" class="tab-content">
+          <h2 class="header" id="Наши_достижения">Наши достижения</h2>
+          <div class="achive-cards">
+
+            <div class="box-1">
+            <a href="#" class="achive-card">
+              <div class="achive-card-pic">
+                <img class="achive-pic" src="achivements/9tS5VQTlhqI.jpg" alt="Анастасия, жим 47.5кг"> 
+              </div>
+            </a>
+          </div>
+
+          <div class="box-2">
+            <a href="#" class="achive-card">
+              <div class="achive-card-pic">
+                <img class="achive-pic" src="achivements/n_EGtdvDntc.jpg" alt="Анастасия, жим 45кг"> 
+              </div>
+            </a>
+          </div>
+
+          <div class="box-3">
+            <a href="#" class="achive-card">
+              <div class="achive-card-pic">
+                <img class="achive-pic" src="achivements/Cmd0W0OIx2U.jpg" alt="Алексей, бицепс 60кг">
+              </div>
+            </a>
+            </div>
+
+            <div class="box-4">
+            <a href="#" class="achive-card">
+              <div class="achive-card-pic">
+                <img class="achive-pic" src="achivements/pcOnWOuzkUs.jpg" alt="Алексей, жим 120кг">
+              </div>
+            </a>
+            </div>
+
+            <div class="box-5">
+              <a href="#" class="achive-card">
+                <div class="achive-card-pic">
+                  <img class="achive-pic" src="achivements/IMG-20211219-WA0154.jpg" alt="Наша команда">
+                </div>
+              </a>
+              </div>
+
+          </div>
+        </div>
+      
+      </div>
+    </div>
+
+</body>
+
